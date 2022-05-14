@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>HackAThon</title>
+<style>
+body {
+  background-color: white;
+  text-align: center;
+  color: #112222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textbox {
+	background-color: #112222;
+    border: white;
+    color: white;
+    padding: 50px;
+    border-radius: 20%;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+	background-color: none;
+    border: white;
+    color: white;
+    padding: 15px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+      }
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
 
-You can use the [editor on GitHub](https://github.com/joeyjohan/joeyjohan.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+.waitingForConnection {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.3, 0.3);
+  animation-duration: 1.0s;
+}
+body {
+background-image: url("https://media.istockphoto.com/photos/interrogation-room-with-chairs-and-table-picture-id497202483?k=20&m=497202483&s=612x612&w=0&h=gVTYucTpDw4JsLOKs5PSZQRz9KPzwHiuRDdnvV64f88=");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.container {
+    column-width: 30;
+    column-rule: 1px solid rgb(75, 70, 74);
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</style>
+</head>
+<body>
+<br><br><br><br>
+<div class ="waitingForConnection">
+	<h1>HackAThon</h1>
+</div>
 
-### Markdown
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="First link.html" class="button">Escape?</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joeyjohan/joeyjohan.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<h2>Find the Secret Passwords</h2>
+<div class = "container">
+	<div class = "textbox">
+	<p>Look carefully at the text. The<br>  password could be hidden among the words.</p>
+    </div>
+    <div class = "textbox">
+	<p>The password you are looking for can <br> sometimes be found within the code itself.</p>
+    </div>
+    <div class = "textbox">
+	<p>You might have to play a game and <br> see what you password comes out of that.</p>
+    </div>
+</div>
+</body>
+</html>
